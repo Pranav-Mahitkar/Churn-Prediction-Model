@@ -81,7 +81,3 @@ Each model was assessed on accuracy, precision, recall, F1-score, and F2-score (
 - Ensemble/boosting methods (AdaBoost, Gradient Boosting, and a soft-voting ensemble of the two plus Logistic Regression) consistently outperformed simpler models like Decision Trees and KNN on this dataset.
 - Contract type and tenure are the dominant signals for churn — actionable insights a business could use to target retention offers at month-to-month, low-tenure customers.
 - The soft Voting Classifier combining Gradient Boosting, Logistic Regression, and AdaBoost achieved the best overall ROC-AUC (84.93%), showing that model averaging captured complementary strengths of its base learners.
-
-## Reference
-
-Modeling approach adapted in part from [Predict Customer Churn in Python](https://towardsdatascience.com/predict-customer-churn-in-python-e8cd6d3aaa7).
